@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe book</title>
+    <link rel="stylesheet" href="style.css">
+    <link 
+  rel="stylesheet" 
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
+  integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+Z0ht1OlN1GIKS57V1MyNsYPyCUrUeQc9vNfzsWFV28IaLL3i69PSdNyeRssA==" 
+  crossorigin="anonymous"
+/>
+
+
+
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Recipe Book</h1>
+            <form>
+                <input type="text" placeholder="Search for recipe" class="search">
+                <select class="filter">
+                    <option value="all">All</option>
+                    <option value="veg">Veg</option>
+                    <option value="nonveg">Non-Veg</option>
+            </select>
+            <button type="submit" class="searchBtn">Search</button>
+            </form>
+
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="recipe-container">
+                <img src = "https://cdn.firstcry.com/education/2022/11/12144827/List-of-Fast-Food-Fast-Food-Vocabulary-for-Kids.jpg" alt="Recipe Image" class="fullscreen-image"/>
+            </div>
+        </section>
+        </main>
+
+         <div class="recipe-popup" style="display: none;">
+        <div class="popup-content">
+            <span class="close-btn">&times;</span>
+            <div class="recipe-details-content"></div>
+        </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
